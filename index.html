@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+</head>
+<body>
+    <br>
+    <h1>ZARA FORM</h1>
+    <p>we create a form for get some information from you. Plz complet the form :)</p>
+    <br>
+    <!-- FORM -->
+
+    <form action="https://www.google.com/search/" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Search on Google:</label>
+            <input type="text" id="name" name="q=">
+            <input type="submit" value="search">
+        </div>
+    </form>
+    <br>
+    <form action="pageTwo.html" method="get">
+        <fieldset >
+            <legend>ZARA FORM</legend>
+            <div>
+                <label for="name">First name:</label>
+                <input type="text" id="name" name="first-name" value="" required>
+            </div>
+            <br>
+            <div>
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="last-name" value="" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" value="" required>
+            </div>
+            <br>
+            <div>
+                <h3>Gender:</h3>
+                <div>
+                    <label for="gender"> <input type="radio" id="gender" name="gender" value="male">male</label>
+                    
+                    <label for="gender"><input type="radio" id="gender" name="gender" value="female" checked>female</label>
+                    
+                    <label for="gender"> <input type="radio" id="gender" name="gender" value="not to say">not to say</label>
+
+                    <label for="gender"><input type="radio" id="gender" name="gender" value="non-binary ">non-binary </label>
+
+                </div>
+            </div>
+    
+            <br>
+            <div>
+                <label for="birthday">Date of birth:</label>
+                <input type="date" id="birthday" name="birthday" value="">
+            </div>
+
+            <br>
+            <div>
+                <label for="age">Your Age:</label>
+                <input type="number" id="age" name="age" min="18" max="90" value="">
+            </div>
+            <br>
+            <div>
+                <label for="favcolor">Your FavColor:</label>
+                <input type="color" id="favcolor" name="favcolor" value="">
+            </div>
+
+            <br>
+            <div>
+                <label for="resume">atach your CV:</label>
+                <input type="file" id="resume" name="resume" value="">
+            </div>
+
+            <br>
+            <div>
+                <h3>Degree:</h3>
+                <label for="associate"> <input type="checkbox" id="associate" name="degree" value="associate"> associate </label>
+                <label for="bachelor's"> <input type="checkbox" id="bachelor's" name="degree" value="bachelor's"> bachelor's </label>
+                <label for="master's"> <input type="checkbox" id="master's" name="degree" value="master's"> master's </label>
+                <label for="doctoral"> <input type="checkbox" id="doctoral" name="degree" value="doctoral"> doctoral </label>
+                <label for="Professional"> <input type="checkbox" id="Professional" name="degree" value="Professional"> Professional </label>
+            </div>
+
+            <br>
+            <div>
+                <label for="send">Color Code:</label>
+                <input type="color" id="send" oninput="result.value = send.value">
+                <input type="text" id="result" >
+            </div>
+
+            <br>
+            <div>
+                <label for="wigth">your wigth:</label>
+                <input type="range" id="wigth" name="wigth">
+            
+            </div>
+
+            <br>
+
+            
+            
+            <br>
+            <div>
+                <input type="submit" name="submit" value="send">
+                <input type="reset" name="reset" value="reset">
+            </div>
+        </fieldset>
+    </form>
+    
+
+    <br>
+</body>
+</html>
